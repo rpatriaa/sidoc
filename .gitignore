@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Next / build
+.next/
+out/
+
+# uploads, logs
+uploads/
+logs/
+*.log
+
+# env
+.env
