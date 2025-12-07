@@ -4,12 +4,11 @@ Monorepo untuk Sidoc — aplikasi pengelolaan dokumen.
 
 ## Struktur
 - `frontend/` — Next.js (UI)
-- `backend/` — API (Express or Laravel)
+- `backend/` — Express (API)
 
 ## Branch strategy
 - `main` — release/stable
 - `dev` — development integration
-- `feature/*` — feature branches
 
 ## Setup singkat (development)
 1. Clone repo  
