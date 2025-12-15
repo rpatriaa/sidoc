@@ -4,14 +4,23 @@ npm-debug.log*
 yarn-error.log
 pnpm-lock.yaml
 
-# Next / build
-.next/
-out/
+# Environment variables
+.env
+.env.local
 
-# uploads, logs
+# Uploads
 uploads/
+
+# Logs
 logs/
 *.log
 
-# env
-.env
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+.tmp/
+out/
+.next/
