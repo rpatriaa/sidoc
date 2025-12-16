@@ -5,6 +5,7 @@ const morgan = require("morgan");
 // Import routes
 const healthRoute = require("./routes/health.route");
 const userRoute = require("./routes/user.route");
+const authRoute = require("./routes/auth.route");
 
 // Import middlewares
 const errorMiddleware = require("./middlewares/error.middleware");
@@ -24,8 +25,12 @@ app.get('/', (req, res) => {
 })
 app.use('/health', healthRoute);
 
-// User routes
+// Authentication route
+app.use('/api/auth', authRoute);
+
+// User route
 app.use('/api/users', userRoute);
+
 
 // Error handling middleware
 app.use(errorMiddleware);
